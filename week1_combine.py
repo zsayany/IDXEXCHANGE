@@ -159,3 +159,7 @@ print(f"Listing combined file: {listing_output_file}")
 print(f"Summary file:          {summary_file}")
 print()
 print("Done.")
+#Sold rows before Residential filter:    549,082
+#Sold rows after Residential filter:     369,554
+#Listings rows before Residential filter:782,537
+#Listings rows after Residential filter: 494,622
