@@ -1,21 +1,9 @@
 import pandas as pd
 from pathlib import Path
 import re
-
-# =========================================================
-# WEEK 1 - MONTHLY DATASET AGGREGATION
-# Combines all monthly MLS files from Jan 2024 through the
-# most recently completed calendar month, filters to
-# PropertyType == "Residential", and saves new CSVs.
-# =========================================================
-
-# Your project structure (from screenshot):
-# IDX2/
-#   raw/   <-- most CSV files live here
-#   sql/
-#   IDX_Exchange_Intern_Handbook_Final-...
-#
-# So we point data_dir to the raw folder:
+# WEEK 1
+# Combines all monthly MLS files from Jan 2024 through Mar 2026
+# PropertyType == "Residential"
 data_dir = Path("raw")
 
 output_dir = data_dir / "combined_outputs"
